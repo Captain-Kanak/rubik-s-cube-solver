@@ -102,3 +102,13 @@ Repeat this for all four white corners.
 When finished, the entire white face should be solved.
 
 ## 7. Solve the middle layer
+
+Now ignore the white and yellow faces.
+
+Look at the four edge pieces in the 3rd layer that do not contain yellow.
+
+Move each edge piece into its correct position in the middle layer.
+
+Repeat until all four middle-layer edges are solved.
+
+## 8. Create a yellow cross
