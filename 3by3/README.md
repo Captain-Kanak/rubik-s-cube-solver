@@ -55,4 +55,26 @@ White + Red
 
 then the red part should be aligned with the red center.
 
-## 5. Move the white cross to the white side
+## 5. Move the matched white cross to the white side
+
+Now the match edge turn to the white side.
+
+Do this for all four white edges.
+
+Once all four white edges are matched with their corresponding center colors, turn the cube so that the **white center is facing you/up**.
+
+You should now have a proper white cross:
+
+```text
+ ┌───┬───┬───┐
+ │   │ W │   │
+ ├───┼───┼───┤
+ │ W │ W │ W │
+ ├───┼───┼───┤
+ │   │ W │   │
+ └───┴───┴───┘
+```
+
+The side colors should also match their center pieces.
+
+## 6. Solve the white corners
