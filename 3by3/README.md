@@ -78,3 +78,27 @@ You should now have a proper white cross:
 The side colors should also match their center pieces.
 
 ## 6. Solve the white corners
+
+Now find a corner piece containing **white**.
+
+A white corner has three colors.
+
+For example:
+
+```text
+White + Red + Green
+```
+
+This corner belongs between:
+
+- White center
+- Red center
+- Green center
+
+Move the corner into its correct position.
+
+Repeat this for all four white corners.
+
+When finished, the entire white face should be solved.
+
+## 7. Solve the middle layer
