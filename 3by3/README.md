@@ -105,10 +105,36 @@ When finished, the entire white face should be solved.
 
 Now ignore the white and yellow faces.
 
-Look at the four edge pieces in the 3rd layer that do not contain yellow.
+Look at the four edge pieces that do not contain yellow.
 
 Move each edge piece into its correct position in the middle layer.
 
 Repeat until all four middle-layer edges are solved.
 
 ## 8. Create a yellow cross
+
+Now work on the yellow face.
+
+Keep yellow face to top.
+
+The goal is to create:
+
+```text
+ ┌───┬───┬───┐
+ │   │ Y │   │
+ ├───┼───┼───┤
+ │ Y │ Y │ Y │
+ ├───┼───┼───┤
+ │   │ Y │   │
+ └───┴───┴───┘
+```
+
+To create yellow `+` share apply this algorithm:
+
+Keep that side on the right side that not have yellow edge.
+
+```text
+R B U B' U' R'
+```
+
+Keep applying the required moves until you get the yellow cross.
